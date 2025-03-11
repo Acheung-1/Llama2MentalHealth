@@ -1,7 +1,7 @@
 
-Prathamesh Bagel, Andrew Cheung, Shi Bin Lim
+Andrew Cheung and Shi Bin Lim
 
-Our project trains two different models: BlenderBot and Llama2
+Our project trains will fine-tune the opensourced Llama2 model
 
 We will train the models with the following 3 datasets:
 
@@ -20,15 +20,11 @@ And EVALUATE them together with a Vanilla model using BLEU score on UNSEEN couns
 4 NLP CLASS CONCEPTS:
 [1. Syntax] Train and test input will be tokenized and fed to the model.
 [2. Semantics] Instruction-fine tuning the models gives instruction on how the language model should respond. 
-[3. Transformer LLMs] BlenderBot and Llama2 (LLMs) are trained
+[3. Transformer LLMs] Llama2 (LLMs) 
 [4. Application] Evaluator method by BLEU score to identify which model produces an output most similar to a psychologist response.
 
 
 The code we have provided below trains the models, evaluates BLEU score of their response, and runs on Google Co-lab.
-
-BLENDERBOT:
-finetuned_blenderbot_therapist.py
-finetuned_blenderbot_phr_therapist.py
 
 LLAMA2:
 llama_2_vanilla.py
